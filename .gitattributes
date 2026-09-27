@@ -1,0 +1,15 @@
+# Project-specific overrides
+# Text file normalization
+# Language detection rules
+build/* linguist-vendored
+yarn.lock linguist-generated
+go.sum linguist-generated
+
+*.yaml linguist-detectable=false
+*.min.css linguist-generated
+*.html linguist-vendored
+
+node_modules/* linguist-vendored
+*.js linguist-detectable
+
+*.min.js linguist-generated
