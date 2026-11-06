@@ -1,0 +1,8 @@
+npm-debug.log*
+build/
+node_modules/
+.env
+.next/
+coverage/
+.DS_Store
+_site/
